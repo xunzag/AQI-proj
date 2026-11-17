@@ -1,5 +1,7 @@
 # Milan Air Quality: trends, seasonality and the 2020 lockdown effect
 
+[![tests](https://github.com/xunzag/AQI-proj/actions/workflows/tests.yml/badge.svg)](https://github.com/xunzag/AQI-proj/actions/workflows/tests.yml)
+
 I analysed eleven years of official air quality measurements from Milan (2015–2025, plus 2026 to date) to answer four questions:
 
 1. Is the air in Milan getting cleaner, and how fast?
