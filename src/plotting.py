@@ -27,6 +27,8 @@ def set_style() -> None:
         "axes.spines.right": False,
         "axes.edgecolor": LIGHT_GREY,
         "axes.grid": True,
+        "axes.grid.axis": "y",
+        "axes.axisbelow": True,
         "grid.color": "#e6e5e0",
         "grid.linewidth": 0.8,
         "axes.titlesize": 13,
