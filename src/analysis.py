@@ -57,5 +57,5 @@ def window_table(daily: pd.DataFrame, years: list[int], start_md: str, end_md: s
 
 
 def pct_change(new: float | pd.Series, base: float | pd.Series):
-    """Percentage change from ``base`` to ``new``."""
-    return 100 * (np.asarray(new) / np.asarray(base) - 1) if np.ndim(new) else 100 * (new / base - 1)
+    """Percentage change from ``base`` to ``new`` (works on numbers and on aligned pandas objects)."""
+    return 100 * (new / base - 1)
